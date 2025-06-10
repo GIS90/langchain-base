@@ -11,6 +11,7 @@ expamples = [
 ]
 
 # 提示词追加示例：用于历史数据参考
+# 如果示例再多，建议用相似度匹配
 expample_prompt = PromptTemplate(
     input_variables=["input", "output"], 
     template="输入: {input}, 输出: {output}"
